@@ -10,6 +10,7 @@ public class exerciseonswitch {
 		Scanner input = new Scanner(System.in);
 	    System.out.print("Enter a character: ");
 	    char day= input.findInLine(".").charAt(0);
+	    input.close();
 	    switch(day){
 	    case 'A':
 	    case 'a':

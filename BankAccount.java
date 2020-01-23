@@ -32,6 +32,7 @@ public class BankAccount {
 			System.out.println("Email Address: " +email);
 			System.out.println("Contact No: " +phone_number);
 		}
+// since the main class is written in this file, it has to be static. 
 static class MainClass {		
 	public static void main(String[] args) {
 			 BankAccount user1=new BankAccount();
@@ -39,7 +40,7 @@ static class MainClass {
 			 user1.balance=50000;
 			 user1.customer_name="Anu";
 			 user1.email="vysala.anu@gmail.com";
-			 user1.phone_number=6463925;
+			 user1.phone_number=646392507;
 			 
 			 user1.DepositAmount(1000);
 			 user1.WithdrawAmt(500);

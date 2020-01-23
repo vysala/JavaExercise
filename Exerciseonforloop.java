@@ -12,6 +12,7 @@ public class Exerciseonforloop {
 	    int firstnumber= input.nextInt();
 	    System.out.print("Enter the second number(upper range): ");
 	    int secondnumber= input.nextInt();
+	    input.close();
 	    if(firstnumber>secondnumber){
 	    throw new Exception("The first number should be less than second number");
 	  	    }
